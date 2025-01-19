@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333;
+        }
+        
+        .chapter-header {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        .key-concept {
+            background: #e8f4f8;
+            border-left: 5px solid #3498db;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .reflection-box {
+            background: #fdf6e3;
+            border: 2px solid #eee8d5;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .process-diagram {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .process-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #3498db;
+            color: white;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+        
+        .arrow {
+            display: inline-block;
+            font-size: 24px;
+            color: #7f8c8d;
+            margin: 0 10px;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        .value-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .value-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .text-with-image {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin: 20px 0;
+}
+    .image-placeholder {
+        background: #e0e0e0;
+        padding: 20px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 200px;
+        font-style: italic;
+        color: #666;
+    }
+
+    .process-section {
+        background: white;
+        padding: 25px;
+        border-radius: 8px;
+        margin: 20px 0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .reflection-section {
+        background: #f8f9fa;
+        padding: 30px;
+        border-radius: 8px;
+        margin: 40px 0;
+        border-left: 5px solid #2c3e50;
+    }
+    </style>
+</head>
+<body>
+    <div class="chapter-header">
+        <h1>Engineering Design Position Statement</h1>
+        <p>Mehmet Ozdincer</p>
+    </div>
+
+    <div class="key-concept">
+        <div class="chapter-introduction">
+            <h2>Engineering Design Philosophy</h2>
+            <div class="text-with-image">
+                <div class="content">
+                    <p>My implementation of the engineering design process is one that relies on both structure and spontaneity. Examples could be: <br><br><b>Structure:</b> Following the FDCR model. <br><b>Spontaneity:</b> allowing for tangents without predefined ends.<br> </p>
+                    <p>Through my experiences in Praxis I and other projects both in courses and in design teams, I found that: <b>unexpected connections that emerge when we allow ourselves to think beyond conventional boundaries while maintaining a systematic framework.</b></p>
+                    <p>In this position statement I try to justify my concious design philosophies, and identify and reflect on my subconcious patterns, and relate each to their nascence in my values and experiences. <b>These philosophies are reflections on projects I have completed, rather than constructed ideals, thus, a motivating example will be given with each statement.</b></p>
+                </div>
+                <div class="image-placeholder">
+                    <figure>
+                        <img src="fdcr.png">
+                        <figcaption>Figure 1 - Image of FDCR framework which loosely defines the overarching structure to my personal design process.</figcaption>
+                      </figure>
+                </div>
+            </div>
+        </div>
+        <h3>Core Philosophy</h3>
+        <p>My engineering design process presupposes that the best solution to complex problems is usually both the most creative and most painstaking, while also usually being the simplest and easiest to communicate.</p>
+        <p>This makes getting to that solution difficult, and makes it necessary to be methodical. So, my model, unlike the FDCR model, requires a linear progression, at least for the first time I'm going through it, as outlined below:</p>
+    </div>
+
+    <h2>My Design Process</h2>
+    
+    <div class="process-diagram">
+        <div class="process-circle">Idea Flow</div>
+        <span class="arrow">→</span>
+        <div class="process-circle">Embrace Discomfort</div>
+        <span class="arrow">→</span>
+        <div class="process-circle">Deep Focus</div>
+        <span class="arrow">→</span>
+        <div class="process-circle">Structured Communication</div>
+    </div>
+        <div class="process-breakdown">
+            <div class="process-section">
+                <h3>1. Idea Flow: The Foundation/Familiarity</h3>
+                <div class="text-with-image">
+                    <div class="content">
+                        <p>The foundation of my design process begins with <b>exposure.</b> Much like attending a lecture or reading a book where I don’t fully understand everything, I have found that I am significantly more effective when I am at least exposed to the ideas I will be working with—even if it’s just being able to name them.</p>
+                        <p>I create an environment where thoughts can emerge naturally, allowing my brain to lay the schematic—or at least establish connections between topics—without immediate judgment or constraint. This approach aligns with the <b>Frame phase of the FDCR model</b>, where understanding the problem space requires an open mind and multiple perspectives. I apply this approach not only in engineering design but also in class, when reading difficult books, or when starting any project.</p>
+                        <div class="key-concept"><b>CONNECTION:</b> when I first joined the UTAT design team, I knew nothing about circuit design. Rather than reading a book or watching a software tutorial, I started by looking at schematics, and videos designing the exact types of circuits the team did. I valued exposure to relevant over deep understanding initially, which helped me save significant time.</div>
+                </div>
+                    <div class="image-placeholder">
+                        <figure>
+                        <img src="lec.jpg">
+                        <figcaption>Figure 2 - Photo of a lecture where I had trouble following the reasoning. Nevertheless, I was being exposed to the ideas/topics, which is the fundamental step.</figcaption>
+                      </figure>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="process-section">
+                <h3>2. Embracing Discomfort: The Catalyst</h3>
+                <div class="text-with-image">
+                    <div class="content">
+                        <p>After gaining familiarity, I <b>identify the most difficult aspects and ideas,</b> as they are often the most fruitful, and allow for the least amount of time-waste.</p>
+                        <p>Another way to put this is that I seek out ideas and solutions that make me uncomfortable or seem initially unfeasible. I love exploring this discomfort, as it is the easiest signal to see where I have a knowledge gap (can't think of a solution immediately). <b>If I find the knowledge gap in one area of the project, chances are, addressing it will help me in other areas of it.</b></p>
+                        <div class="key-concept">
+                        <p><b>CONNECTION:</b> This approach was evident in my Process Analysis in ESC101, where my thesis was: spending time on singular tangents in the project lead to our greatest breakthrough moments.</p>
+                    </div>
+                    </div>
+                    <div class="image-placeholder">
+                        <figure>
+                            <img src="more-difficult.jpg">
+                            <figcaption>Figure 3 - We usually think the less difficult path will be quicker or more fruitful. I think this is not always the case.</figcaption>
+                          </figure>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="process-section">
+                <h3>3. Deep Focus: The Implicit Brainstorming</h3>
+                <div class="text-with-image">
+                    <div class="content">
+                        <p>This is the easiest part, as in this section, the rate of ideas coming to me is usually linear: <b>the more time I spend in deep focus, the more ideas I generate.</b> Deep focus means two things: <br><br>1. Small scope (of the project) <br>2. No distractions (one long work session > many smaller sessions)</p>
+                        <p>Once ideas begin flowing and I've identified challenging areas, I try to focus as intensely as possible at one issue. This is not counterproductive, or ignoring other parts of the project, in fact the ideas that come out of this part are usually the most applicable.</p>
+                        <div class="key-concept"><b>CONNECTION:</b> I had to find what was causing jitter in my servo driver. Rather than brainstorming or reading about it, I sat down with the servo controller board, looked at it for hours, and wrote down what I thought. I saw the signal pin was not built to handle any significant current, and decided to test it (Figure 4). This was the issue.</div>
+                    </div>
+                    <div class="image-placeholder">
+                        <figure>
+                            <img src="soldering1.jpg">
+                            <figcaption>Figure 4 - Me soldering a resistor to a board to overload the signal pin of a board. An idea that came to me only after hours of thinking of what could be wrong with it.</figcaption>
+                          </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="process-section">
+                <h3>4. Structured Communication: The Bridge</h3>
+                <div class="text-with-image">
+                    <div class="content">
+                        <p>The final phase involves communication. Simply put, it is a reflection of what I did in the last three steps, and communicating the key parts to others. <b>A fresh set of eyes is the most robust and effetive reality check,</b> as long as you made you communicated your work clearly, or even better, made it inherently clear.</p>
+                        <p>Usually, this is documentation (just like our Design Report). In terms of FDCR, this corresponds most pointedly to R - representing. However, it informs all strands, as a catalyst for further iteration or refinement of ideas.</p>
+                        <p>Much like FDCR, after this, I can go back to whichever part of the 4-step process is most fitting.</p>
+                        <div class="key-concept"><b>CONNECTION:</b> Preparing the design report was the ultimate form of structured communication. Prior to writing anything, we had to converse as a team. Every person needed to communicate what they did to other members team and we needed to bring it together. Then, we communicated this to the outside world, by, together, creating the design report.</div>
+                    </div>
+                    <div class="image-placeholder">
+                        <figure>
+                            <img src="ns.png">
+                            <figcaption>Figure 5 - Our design report, which is the basis of representing your solution to other people. While making it, as well, each member constantly represnted what they did to everyone else in the group.</figcaption>
+                          </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="value-grid">
+        <div class="value-card">
+            <h3>Social Learning</h3>
+            <p>I engage in engineering design through active dialogue, speaking and listening to gather diverse perspectives before diving into solutions.</p>
+        </div>
+        <div class="value-card">
+            <h3>Embracing Challenges</h3>
+            <p>I deliberately seek out uncomfortable or challenging aspects of projects, believing they lead to the most significant innovations.</p>
+        </div>
+        <div class="value-card">
+            <h3>Deep Focus</h3>
+            <p>By concentrating intensely on specific problems, I generate layers of ideas that might not surface through broader exploration.</p>
+        </div>
+    </div>
+
+    <div class="reflection-box">
+        <h3>Learning Through Experience</h3>
+        <p>My process analysis from Praxis I revealed how unstructured tangents within the umbrella of structured frameworks can lead to breakthrough moments. This realization has shaped my current approach to engineering design, where I value both systematic methods and spontaneous exploration (often nested within eachother).</p>
+    </div>
+    <div class="reflection-section">
+        <h2>Integration with Engineering Practice</h2>
+        <div class="text-with-image">
+            <div class="content">
+                <p>My approach to engineering design has been shaped greatly by my experiences and more importantly my reflections in Praxis I. I discovered the power of combining structured frameworks with spontaneous exploration. This integration allows me to maintain systematic progress while remaining open to serendipitous discoveries.</p>
+                <p>The FDCR model provides a framework that complements my natural tendencies: Frame allows for initial idea flow, Diverge supports my embrace of discomfort, Converge enables deep focus, and Represent structures my communication. Each phase benefits from both systematic approaches and creative exploration. Of course, while those are the most fitting comparisons, one could easily argue each FDCR model can be fitted to each step of my personal design process, which is what usually ends up happening anyway.</p>
+            </div>
+            <div class="image-placeholder">
+                <figure>
+                    <img src="Lotus_blossom.jpg">
+                    <figcaption>Lotus Blossom diagram we decided to make when we were feeling stuck. While it didn't directly help, it inspired an idea which, down the line, turned in to our final product.</figcaption>
+                  </figure>
+            </div>
+        </div>
+    </div>
+    <h2>Recap of What I Value Most</h2>
+    <div class="key-concept">
+        <p>My engineering design practice is guided by:</p>
+        <ul>
+            <li>Embracing uncertainty and discomfort as catalysts for innovation</li>
+            <li>Valuing collective knowledge through active listening and sharing</li>
+            <li>Combining structured frameworks with creative exploration</li>
+            <li>Focusing deeply on challenging aspects to generate breakthrough ideas</li>
+        </ul>
+    </div>
+</body>
+</html>
